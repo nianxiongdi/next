@@ -11,6 +11,7 @@
         }
     },
     "plugins": [ 
+        "code",
         "github",
         "versions-select",
         "-fontsettings"
@@ -27,11 +28,11 @@
         "versions": {
             "options": [
                 {
-                    "value": "http://localhost:4000/zh-ch/",
+                    "value": "https://nianxiongdi.github.io/forbook1/zh-ch/",
                     "text": "Chinese"
                 },
                 {
-                    "value": "http://localhost:4000/en-us/",
+                    "value": "https://nianxiongdi.github.io/forbook1/zh-ch/",
                     "text": "English"
                 }
             ]

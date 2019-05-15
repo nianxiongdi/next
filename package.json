@@ -122,6 +122,7 @@
     "glob": "^7.1.2",
     "gh-pages": "^2.0.1",
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-code": "^0.1.0",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-versions-select": "^0.1.1",
     "highlight.js": "^9.12.0",
