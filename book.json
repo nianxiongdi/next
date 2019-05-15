@@ -1,6 +1,6 @@
 {
     "title" : "fuson gitbook",
-    "root":"./site/zh-cn/a11y",
+    "root":"./site",
     "links": {
         "gitbook": false,
         "sharing": {
@@ -12,6 +12,7 @@
     },
     "plugins": [ 
         "github",
+        "versions-select",
         "-fontsettings"
     ],
     "pluginsConfig": {
@@ -22,6 +23,18 @@
             "theme": "white",
             "family": "sans",
             "size":  2
+        },
+        "versions": {
+            "options": [
+                {
+                    "value": "http://localhost:4000/zh-ch/",
+                    "text": "Chinese"
+                },
+                {
+                    "value": "http://localhost:4000/en-us/",
+                    "text": "English"
+                }
+            ]
         }
     } 
 }
